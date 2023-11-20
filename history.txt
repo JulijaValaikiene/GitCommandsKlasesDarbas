@@ -1,0 +1,139 @@
+    1  gir help init
+    2  git help init
+    3  git init
+    4  git --config --list
+    5  git config --list
+    6  git config user.name test
+    7  git onfig user.email julija.valaikiene@stud.techin.lt
+    8  git config user.email julija.valaikiene@stud.techin.lt
+    9  git config --list --local
+   10  git config -- global core.editor "code --wait"
+   11  git config --global core.editor "code --wait"
+   12  touch text1.txt
+   13  ls
+   14  nano text1.txt
+   15  echo "Content B" > file2.txt
+   16  git status
+   17  git add file2.txt
+   18  git status
+   19  git add .
+   20  git status
+   21  git comit -m "working locally repository"
+   22  git commit -m "working locally repository"
+   23  git stauts
+   24  git status
+   25  git log
+   26  git log --one leine
+   27  git log --oneline
+   28  git log --oneline --graph
+   29  git log --oneline --graph --all
+   30  git help reset
+   31  git add file3.txt
+   32  gir add file4.txt
+   33  git add file4.txt
+   34  touch text3.txt
+   35  touch text4.txt
+   36  touch text{5..15}.txt
+   37  add .  
+   38  git add .
+   39  git status
+   40  git  commit -m "Darbas klaseje"
+   41  git log -- row
+   42  git log -- raw
+   43  git log --raw
+   44  git add text{1..5}.txt
+   45  git  commit --amend -m "Darbas NE klaseje"
+   46  git log --raw
+   47  git branch
+   48  git branch -M main
+   49  git branch
+   50  git branch dev
+   51  git 
+   52  git branch
+   53  git checkout dev
+   54  git checkout -b bug-fix
+   55  git branch
+   56  git log --oneline --all --graph
+   57  git checkout main
+   58  git log --oneline --all --graph
+   59  git checkout dev
+   60  echo "Content A" > file4.txt
+   61  git status
+   62  git add .
+   63  git status
+   64  git commit -m "Dev branch"
+   65* 
+   66  gitk
+   67  gitk &
+   68  git show-branch -a
+   69  touch "Test" > test10.txt
+   70  git checkout
+   71  ls
+   72  git status
+   73  git checkout main
+   74  git status
+   75  git rm text5.txt
+   76  gir status
+   77  git status
+   78  echo "Content B" > text2.txt
+   79  git add .
+   80  git commit -m "Commit A"
+   81  git status
+   82  git checkout -b feature-branch
+   83  echo "Feature Content D" > file3.txt
+   84  git status
+   85  git add .
+   86  git commit -m "Commit D"
+   87  git log --oneline --graph
+   88  git checkout main
+   89  git merge feature-branch
+   90  git log --oneline --graph
+   91  git rm .
+   92  git rm *
+   93  git branch -d feature-branch
+   94  git branch
+   95  git branch -d dev
+   96  git branch -D dev 
+   97  git branch -D bug-fix
+   98  git branch
+   99  git echo "Content in main branch" > file1.txt
+  100  echo "Content in main branch" > file1.txt
+  101  git add file1.txt
+  102  git status 
+  103  git commit -m "Initial commit in main branch"
+  104  git checkout -b 'dev'
+  105  echo "Content in dev branch" > file1.txt
+  106  git checkout main
+  107  git status
+  108  git checkout dev
+  109  git add file1.txt
+  110  git status
+  111  git commit -m "Initial commit in dev branch"
+  112  git log 
+  113  git checkout main
+  114  echo "Updated content in main branch" > file1.txt
+  115  gir add file1.txt
+  116  git commit -m "Updated content in main brnch"
+  117  git merge dev
+  118  git status
+  119  gir add .
+  120  git add .
+  121  git commit -m "Dev branch merge into main"
+  122  git status
+  123  git log --oneline --graph --all
+  124  clier
+  125  clear
+  126  git init
+  127  git config user.name JulijaValaikiene
+  128  git config user.email valaikienejulija@gmail.com
+  129  git config --list
+  130  touch text.txt 
+  131  git status
+  132  git add .
+  133  git commit -m "Try to push from local to upstream"
+  134  git remote add origin https://github.com/JulijaValaikiene/klases-darbas
+  135  git remote -v
+  136  git push origin main
+  137  git branch -M main
+  138  git push -u origin main
+  139  history > history.txt | git add . | git commit -m "prisidekit ka siandien gero nuveiket" | git push -u origin main
